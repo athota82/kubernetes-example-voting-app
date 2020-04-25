@@ -12,7 +12,7 @@ spec:
       env:
       - name: POSTGRES_USER
         value: "postgres"
-      - name: "POSTGRES_PASSWORD"
+      - name: POSTGRES_PASSWORD
         value: "postgres"
       ports:
         - containerPort: 5342
