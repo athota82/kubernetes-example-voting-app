@@ -8,7 +8,7 @@ kubectl create -f postgres-pod.yml
 
 kubectl create -f postgres-service.yml
 
-kubectl create -f worker-pod.yml
+kubectl create -f worker-app-pod.yml
 
 kubectl create -f voting-app-pod.yml
 
