@@ -18,7 +18,7 @@ kubectl create -f result-app-pod.yml
 
 kubectl create -f result-app-service.yml
 
-# Check logs on the pods
+## Check logs on the pods
 kubectl logs -l name=redis-pod
 
 kubectl logs -l name=voting-app-pod
